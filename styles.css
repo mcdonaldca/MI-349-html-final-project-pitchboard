@@ -82,8 +82,8 @@ h2 {
 }
 
 .icon img {
-	height: 70px;
-	width: 70px;
+	height: 60px;
+	width: 60px;
 }
 
 .personas .title {
@@ -113,7 +113,7 @@ h2 {
 }
 
 .comp a {
-	color: white;
+	color: #272640;
 }
 
 .comp a:hover {
