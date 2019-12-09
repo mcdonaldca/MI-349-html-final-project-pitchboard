@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #D9C1C5;
+	font-family: "Open Sans", sans-serif;
+	padding: 24px;
+}
+
+h1, h2 {
+	font-family: "Merriweather", serif;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.content {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+.section {
+	padding: 24px;
+}
+
+.hero {
+	background-color: #272640;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	color: white;
+	text-align: center;
+}
+
+.pitch {
+	background-color: #73305B;
+	color: white;
+	font-style: italic;
+}
+
+.pitch p {
+	margin: 0 auto;
+	max-width: 750px;
+}
+
+.personas {
+	background-color: #A6587C;
+	color: white;
+}
+
+.persona-details {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 24px;
+	width: 100%;
+}
+
+.persona {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 33%;
+}
+
+.icon {
+	align-items: center;
+	background-color: #272640;
+	border-radius: 100%;
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	width: 100px;
+}
+
+.icon img {
+	height: 70px;
+	width: 70px;
+}
+
+.personas .title {
+	font-weight: 700;
+}
+
+.personas .desc {
+	font-size: 14px;
+}
+
+.comps {
+	background-color: #BF8097;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	color: #272640;
+}
+
+.comp-details {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 24px;
+}
+
+.comp {
+	width: 33%;
+	text-align: center;
+}
+
+.comp a {
+	color: white;
+}
+
+.comp a:hover {
+	text-decoration: none;
+}
